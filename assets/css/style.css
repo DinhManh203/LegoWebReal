@@ -250,7 +250,10 @@ a{
     cursor: pointer;
     margin-bottom: 2rem;
 }
-
+.product-p{
+    color: coral;
+    font-size: 25px;
+}
 .product img{
     transition: 0.3s all;
 }
@@ -261,13 +264,25 @@ a{
 
 
 /* featured */
-#featured{
+#product{
     /* max-width: 1200px;*/
     /* width: 95%;  */
     display: flex;
     align-items: center;
     justify-self: center;
     min-height: 100vh;
+}
+
+.container h3{
+    color: coral;
+}
+
+.container .home-p{
+    color: #1d1d1d;
+}
+.slider-wrapper .image-list .img{
+    width: 350px;
+    height: 250px;
 }
 .slider-wrapper .image-list{
     display: grid;
@@ -410,3 +425,37 @@ a{
     background-color: #FFFFE0;
 }
 
+/* Featured */
+
+.product .img-fluid{
+    width: 250px;
+    height: 250px;
+}
+
+.star{
+    color: #FFD700;
+}
+
+.p-price{
+    text-decoration: line-through;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.container .fea-p{
+    font-size: 30px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 5% { opacity: 1; color: #FFF000; }
+    10%, 15% { opacity: 1; color: #FFD700; }
+    20%, 25% { opacity: 1; color: #FFA500; }
+    30%, 35% { opacity: 1; color: #FF8C00; }
+    40%, 45% { opacity: 1; color: #FF7F50; }
+    50%, 60% { opacity: 1; color: #FF6347; }
+    65%, 70% { opacity: 1; color: #FF4500; }
+    75%, 80% { opacity: 1; color: #FFD700; }
+    85%, 90% { opacity: 1; color: #FFA500; }
+    95%, 100% { opacity: 1; color: #FF6347; }
+  }
