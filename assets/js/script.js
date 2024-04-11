@@ -56,6 +56,7 @@ const initSlider = () => {
         handlesSlideButtons();
         updateScrollThumbPosition();
     });
+
 }
 
 window.addEventListener("load", initSlider);

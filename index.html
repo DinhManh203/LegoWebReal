@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LiBing Store</title>
+    <title>LiBingStore - HomePage</title>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
@@ -18,9 +18,10 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3">
         <div class="container">
-            <a style="cursor: pointer;" href="#"><img src="assets/imgs/libing-new.png" class="img-logo" width="130" height="90"></a>
+            <a style="cursor: pointer;" href="#"><img src="assets/imgs/libing-new.png" class="img-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,11 +29,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               
               <li class="nav-item">
-                <a class="nav-link" href="#" id="navlink">Home</a>
+                <a class="nav-link" href="./index.html" id="navlink">Home</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#" id="navlink">Shop</a>
+                <a class="nav-link" href="./shop.html" id="navlink">Shop</a>
               </li>
 
               <li class="nav-item">
@@ -60,18 +61,18 @@
             <h5>New Arrivals</h5>
             <h1> <span>Best Prices</span> This Season </h1>
             <p class="home-p">Eshop offers the best products for the most affordable prices</p>
-            <a href="./products-page.html"><button>Shop Now</button></a>
+            <a href="./products-page.html"><button class="btnShop">Shop Now</button></a>
             
         </div>
       </section>
 
       <!--Brand-->
       <section id="brand" class="container">
-        <div class="row">
+        <div class="row d-flex justify-content-center">
           <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/>
+          <!-- <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/>
           <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/>
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/>
-          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/>
+          <img class="img-fluid col-lg-3 col-md-6 col-sm-12" src="assets/imgs/brand/brand1.png"/> -->
         </div>
       </section>
 
@@ -131,6 +132,36 @@
                 <div class="scrollbar-thumb"></div>
               </div>
             </div>
+
+            <section id="product" class="my-5 pb-5">
+              <div class="container text-center mt-5 py-5">
+                <h3>Products</h3>
+                <hr>
+                <p class="product-p">We have awesome products</p>
+                <div class="slider-wrapper">
+                  <div class="image-list">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                  </div>
+                  <button id="prev-slide" class="slider-button material-symbols-rounded">chevron_left</button>
+                  <button id="next-slide" class="slider-button material-symbols-rounded">chevron_right</button>
+                </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+
+
           </div>
 
         </div>
@@ -287,8 +318,14 @@
       <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-            <img src="" alt="">
-            <p class="pt-3"> Text </p>
+            <img src="./assets/imgs/libing-new.png" alt="" class="logo-footer">
+            <ul class="text-uppercase">
+              <li><a href="#"> Gift Cards</a></li>
+              <li><a href="#"> Find Inspriration</a></li>
+              <li><a href="#"> LEGO Catalogs</a></li>
+              <li><a href="#"> Find a LEGO Store</a></li>
+            </ul>
+            
           </div>
 
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
@@ -298,7 +335,7 @@
               <li><a href="#"> LEGO NinjaGo</a></li>
               <li><a href="#"> LEGO StarWar</a></li>
               <li><a href="#"> LEGO BatMan</a></li>
-              <li><a href="#"> LEGO Hero</a></li>
+              <li><a href="#"> LEGO Minecraft</a></li>
             </ul>
           </div>
 
@@ -314,18 +351,15 @@
             </div>
             <div>
               <h6 class="text-uppercase">Email</h6>
-              <p> libing_store@gmail.com </p>
+              <p> libingstore0410@gmail.com </p>
             </div>
           </div>
 
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
-            <h5 class="pb-2">Instagram</h5>
-            <div class="row">
-              <img src="" alt="" class="img-fluid w-25 h-100 m-2">
-              <img src="" alt="" class="img-fluid w-25 h-100 m-2">
-              <img src="" alt="" class="img-fluid w-25 h-100 m-2">
-              <img src="" alt="" class="img-fluid w-25 h-100 m-2">
-              <img src="" alt="" class="img-fluid w-25 h-100 m-2">
+            <h5 class="pb-2">Privacy Policy</h5>
+            <div class="collumn">
+              <li><a href="">Warranty provisions</a></li>
+              <li><a href="">Refurn Policy</a></li>
             </div>
           </div>
 
@@ -342,7 +376,8 @@
             <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
               <a href="https://www.facebook.com/profile.php?id=61557684821356"><i class="fab fa-facebook"></i></a>
               <a href="https://www.facebook.com/profile.php?id=61557684821356"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=61557684821356"><i class="fab fa-twitter"></i></a>
+              <a href="https://discord.gg/zt2ux9pg"><i class="fab fa-discord"></i></a>
+              <a href="https://discord.gg/zt2ux9pg"><i class="fab fa-youtube"></i></a>
             </div>
           </div>
         </div>
