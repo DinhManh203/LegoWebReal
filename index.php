@@ -20,8 +20,8 @@
     
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3">
-        <div class="container">
-            <a style="cursor: pointer;" href="#"><img src="assets/imgs/libing-new.png" class="img-logo"></a>
+        <div class="container py-1">
+            <a style="cursor: pointer;" href="./index.html"><img src="assets/imgs/libing-new.png" class="img-logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,22 +37,23 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#" id="navlink">Contact Us</a>
+                <a class="nav-link" href="./contact.html" id="navlink">Contact Us</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#" id="navlink">Help</a>
+                <a class="nav-link" href="#" id="navlink">About Us</a>
               </li>
               
               <li class="nav-item">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
+
+                <a href="./account.html"><i class="fa fa-user"></i></a>
               </li>
             </ul>
             
           </div>
         </div>
-      </nav>
+    </nav>
 
 
       <!--Home-->
@@ -61,7 +62,7 @@
             <h5>New Arrivals</h5>
             <h1> <span>Best Prices</span> This Season </h1>
             <p class="home-p">Eshop offers the best products for the most affordable prices</p>
-            <a href="./products-page.html"><button class="btnShop">Shop Now</button></a>
+            <a href="./shop.html"><button class="btnShop">Shop Now</button></a>
             
         </div>
       </section>
@@ -108,21 +109,21 @@
         <section id="product" class="my-5 pb-5">
           <div class="container text-center mt-5 py-5">
             <h3>Products</h3>
-            <hr>
+            <hr style="color: coral;" >
             <p class="product-p">We have awesome products</p>
             <div class="slider-wrapper">
               <div class="image-list">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21164.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21166.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21172.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21174.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21241.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21186.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21189.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21190.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21162.4.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21162.4.jpg" alt="img-1" class="image-item">
+                <img src="assets/imgs/21162.4.jpg" alt="img-1" class="image-item">
               </div>
               <button id="prev-slide" class="slider-button material-symbols-rounded">chevron_left</button>
               <button id="next-slide" class="slider-button material-symbols-rounded">chevron_right</button>
@@ -132,35 +133,6 @@
                 <div class="scrollbar-thumb"></div>
               </div>
             </div>
-
-            <section id="product" class="my-5 pb-5">
-              <div class="container text-center mt-5 py-5">
-                <h3>Products</h3>
-                <hr>
-                <p class="product-p">We have awesome products</p>
-                <div class="slider-wrapper">
-                  <div class="image-list">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                    <img src="assets/imgs/products/21162.4.jpg" alt="img-1" class="image-item">
-                  </div>
-                  <button id="prev-slide" class="slider-button material-symbols-rounded">chevron_left</button>
-                  <button id="next-slide" class="slider-button material-symbols-rounded">chevron_right</button>
-                </div>
-            <div class="slider-scrollbar">
-              <div class="scrollbar-track">
-                <div class="scrollbar-thumb"></div>
-              </div>
-            </div>
-
 
           </div>
 
@@ -176,16 +148,23 @@
         </div>
       </section>
 
-      <!--Featured-->
+      <!--Featured LGMC-->
       <section id="featured my-5 pb-5">
         <div class="container text-center mt-5 py-5">
           <h3>Super Summer Sales</h3>
-          <hr>
-          <p class="fea-p">15/5 -> 15/6 We offer discounts on all of the following products </p>
+          <hr style="color: coral;">
+          <p class="fea-p">15/5 -> 15/6 We offer discounts on all Lego Minecraft products UP TO 30% </p>
         </div>
         <div class="row mx-auto container-fluid">
+
+        <?php  include('server/get_featured_product.php'); ?>
+
+
+
+        <?php while($row = $featured_products->fetch_assoc()){ ?>
+
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
+            <img src="./assets/imgs/<?php echo $row['product_image']; ?>" class="img-fluid mb-3">
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -194,124 +173,59 @@
               <i class="far fa-star"></i>
             </div>
 
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
+            <h5 class="p-name"> <?php echo $row['product_name']; ?> </h5>
+            <h4 class="p-price"> $ 144.99 </h4>
+            <h4 class="p-sale"> $ <?php echo $row['product_price']; ?> </h4>
+            
+            <a href="<?php echo "./single_product.php?product_id=". $row['product_id'];?>"> <button class="buy-btn"> Buy Now </button> </a>
+            
           </div>
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
+          
+          <?php } ?>
 
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
-
-          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-            <img src="./assets/imgs/products/21162.4.jpg" alt="" class="img-fluid mb-3">
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-
-            <h5 class="p-name">Big Bick</h5>
-            <h4 class="p-price"> $ 99.99 </h4>
-            <h4 class="p-sale"> $ 50.00 </h4>
-            <button class="buy-btn"> Buy Now </button>
-          </div>
         </div>
       </section>
+
+
+      <!--Featured STARWARS-->
+      <section id="featured my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+          <h3> STAR WARS </h3>
+          <hr style="color: coral;">
+          <p class="fea-p">1/6 -> 5/6 Open for limited sale </p>
+        </div>
+        <div class="row mx-auto container-fluid">
+
+        <?php  include('server/get_lgsw.php'); ?>
+
+
+
+        <?php while($row = $featured_products->fetch_assoc()){ ?>
+
+          <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+            <img src="./assets/imgs/<?php echo $row['product_image']; ?>" class="img-fluid mb-3">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+            <h5 class="p-name"> <?php echo $row['product_name']; ?> </h5>
+            <h4 class="p-sale"> $ <?php echo $row['product_price']; ?> </h4>
+            
+            <a href="<?php echo "./single_product.php?product_id=". $row['product_id'];?>"> <button class="buy-btn"> Buy Now </button> </a>
+            
+          </div>
+          
+          <?php } ?>
+
+        </div>
+      </section>
+
+
+
 
       <!--Footer-->
 

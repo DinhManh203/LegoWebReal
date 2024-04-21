@@ -93,9 +93,9 @@ body{
     position: absolute;
     right: 0;
     top: 20px;
-    background-color: #95bf47;
     z-index: 1;
     border-radius: 2px;
+    background-color: #f53939;
     color: #fff;
     font-size: 12px;
     padding: 4px 16px;
