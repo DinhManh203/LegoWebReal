@@ -37,11 +37,11 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="./contact.html" id="navlink">Contact Us</a>
+                <a class="nav-link" href="./contact.php" id="navlink">Contact Us</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#" id="navlink">About Us</a>
+                <a class="nav-link" href="./about_us.php" id="navlink">About Us</a>
               </li>
               
               <li class="nav-item">

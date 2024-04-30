@@ -30,25 +30,25 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
             <li class="nav-item">
-              <a class="nav-link" href="./index.html" id="navlink">Home</a>
+              <a class="nav-link" href="./index.php" id="navlink">Home</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./shop.html" id="navlink">Shop</a>
+              <a class="nav-link" href="./shop.php" id="navlink">Shop</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html" id="navlink">Contact Us</a>
+              <a class="nav-link" href="./contact.php" id="navlink">Contact Us</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#" id="navlink">Help</a>
+              <a class="nav-link" href="./about_us.php" id="navlink">About Us</a>
             </li>
             
             <li class="nav-item">
-              <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+              <a href="./cart.php"><i class="fa fa-shopping-cart"></i></a>
 
-              <a href="./account.html"><i class="fa fa-user"></i></a>
+              <a href="./account.php"><i class="fa fa-user"></i></a>
             </li>
           </ul>
           

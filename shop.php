@@ -5,7 +5,6 @@ include('server/connection.php');
 
 $stmt = $conn->prepare("SELECT * FROM products WHERE product_category='LGCT' OR product_category='LGNJ' OR product_category='LGF' LIMIT 12 ");
 
-$category = $_POST['category'];
 
 $stmt->execute();
 

@@ -16,11 +16,11 @@
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
             <h5 class="pb-2"> Featured  </h5>
             <ul class="text-uppercase">
-              <li><a href="#"> LEGO Friends</a></li>
-              <li><a href="#"> LEGO NinjaGo</a></li>
-              <li><a href="#"> LEGO StarWar</a></li>
-              <li><a href="#"> LEGO BatMan</a></li>
-              <li><a href="#"> LEGO Minecraft</a></li>
+              <li><a href="./shop.php"> LEGO Friends</a></li>
+              <li><a href="./shop.php"> LEGO NinjaGo</a></li>
+              <li><a href="./shop.php"> LEGO StarWar</a></li>
+              <li><a href="./shop.php"> LEGO BatMan</a></li>
+              <li><a href="./shop.php"> LEGO Minecraft</a></li>
             </ul>
           </div>
 

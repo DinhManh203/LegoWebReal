@@ -1050,3 +1050,60 @@ body{
     background-color: #ed5c3f;
 }
 
+
+/* About Us */
+
+.head_abs {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.h1_abs {
+    margin-top: 0;
+}
+
+.detail_abs {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.h2_abs {
+    color: #007bff;
+}
+
+.detail_abs p {
+    line-height: 1.6;
+}
+
+.detail_abs ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.detail_abs li {
+    margin-bottom: 10px;
+}
+
+.detail_abs p:last-child {
+    margin-bottom: 0;
+}
+
+.social-links .social-icons{
+    display: flex;
+    align-items: center;
+}
+
+.social-icons {
+    margin-right: auto;
+}
+
+.follow-us-image {
+    max-width: 100px; 
+}
+
