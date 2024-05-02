@@ -95,7 +95,7 @@ button:hover{
     left: 0;
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 9999;
     color: coral;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
@@ -890,6 +890,12 @@ th:last-child{
     background-color: #fb774b;
 }
 
+.orders .order-details-btn:hover{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #ff4000;
+}
+
 /* Checkout */
 
 #checkout-form .checkout-small-element{
@@ -1106,4 +1112,9 @@ body{
 .follow-us-image {
     max-width: 100px; 
 }
+
+
+
+/* Paypal */
+
 

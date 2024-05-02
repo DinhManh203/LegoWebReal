@@ -11,7 +11,7 @@
             <h5>New Arrivals</h5>
             <h1> <span>Best Prices</span> This Season </h1>
             <p class="home-p">Eshop offers the best products for the most affordable prices</p>
-            <a href="./shop.html"><button class="btnShop">Shop Now</button></a>
+            <a href="./shop.php"><button class="btnShop">Shop Now</button></a>
             
         </div>
       </section>
@@ -34,7 +34,7 @@
             <img class="img-fluid" src="assets/imgs/pictures/pics1.jpg"/>
             <div class="details">
               <h2 class="h1-left">Engage in a thrilling galatic chase</h2>
-              <button class="btn1-left text-uppercaase">Shop Now</button>
+              <a href="./shop.php" class="btn btn-primary btn1-left text-uppercase">Shop Now</a>
             </div>
           </div>
           <!--Two-->
@@ -42,7 +42,7 @@
             <img class="img-fluid" src="assets/imgs/pictures/pics2.jpg"/>
             <div class="details">
               <h2>Rev up creative excitement</h2>
-              <button class="text-uppercaase">Shop Now</button>
+              <a href="./shop.php" class="btn btn-primary btn1-left text-uppercase">Shop Now</a>
             </div>
           </div>
           <!--Three-->
@@ -50,7 +50,7 @@
             <img class="img-fluid" src="assets/imgs/pictures/pics3.jpg"/>
             <div class="details">
               <h2 class="h1-right">New Medieval Town Square</h2>
-              <button class="btn1-right text-uppercaase">Shop Now</button>
+              <a href="./shop.php" class="btn btn-primary btn1-right text-uppercaase">Shop Now</a>
             </div>
           </div>
 
@@ -86,7 +86,7 @@
           </div>
 
         </div>
-        </section>
+      </section>
 
       <!--Banner-->
       <section id="banner" class="my-5 py-5">

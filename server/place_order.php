@@ -68,10 +68,11 @@ if(!isset($_SESSION['logged_in'])){
     
         //5. xóa mọi thứ từ giỏ hàng --> delay
         // unset($_SESSION['cart']);
-    
+        
+        $_SESSION['order_id'] = $order_id;
     
         //6. thông báo cho người dùng xem mọi thứ có ổn 
-        header('location: ../payment.php?order_status=order placed succesfully ');
+        header('location: ../payment.php?order_status=Order placed succesfully ');
     
     
     
