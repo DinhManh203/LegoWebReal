@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +21,9 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -45,7 +55,15 @@
               </li>
               
               <li class="nav-item">
-                <a href="cart.php"><i class="fa fa-shopping-cart"></i></a>
+                <a href="cart.php">
+
+                  <i class="fa fa-shopping-cart"> 
+                    <?php if(isset($_SESSION['quantity']) && $_SESSION['quantity'] != 0) { ?> 
+                        <span> <?php echo $_SESSION['quantity']; ?> </span>
+                    <?php } ?>
+                  </i>
+
+                </a>
 
                 <a href="./account.php"><i class="fa fa-user"></i></a>
               </li>

@@ -1019,7 +1019,7 @@ body{
 
 /* Pagination */
 
-.pagination{
+/* .pagination{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1054,8 +1054,56 @@ body{
 }
 .pagination-item--active .pagination-item_link:hover{
     background-color: #ed5c3f;
-}
+} */
 
+.page-btn {
+    background: #ddd;
+    color: #2c303a;
+    height: 35px;
+    border-radius: 2px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: background 0.3s ease;
+    margin: 0 2px
+  }
+  
+  .page-btn:first-of-type {
+    margin-left: 0;
+  }
+  
+  .page-btn:last-of-type {
+    margin-right: 0;
+  }
+  
+  .page-btn:not([class$="-page"]) {
+    width: 35px;
+  }
+  
+  .pagination-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-btn[class*="-page"] {   
+    background: #ccc;
+    font-size: 0.6em;
+    font-weight: 700;
+  }
+  
+  .page-btn.active {
+    background: #717790;
+    color: #fff;
+  }
+  
+  .page-btn[disabled] {
+    opacity: 0.3;
+  } 
+
+  .hidden {
+    display: none;
+    }
 
 /* About Us */
 
@@ -1116,5 +1164,143 @@ body{
 
 
 /* Paypal */
+
+
+/* Cart Icon */
+
+.fa-shopping-cart {
+    position: relative; 
+}
+
+.fa-shopping-cart > span {
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    background-color: #ff4000; 
+    color: #fff;
+    font-size: 12px; 
+    padding: 2px 6px; 
+    border-radius: 50%;
+}
+
+.main_star {
+    font-size: 20px;
+    color: #ffc107;
+}
+
+
+.progress-label-left {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.progress-label-right {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* CSS for review button */
+#add_review {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 9px 18px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#add_review:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+#review_content {
+    margin-top: 15px;
+}
+
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+.progress-label-left,
+.progress-label-right {
+    font-size: 12px;
+}
+
+
+
+h1, h3 {
+    font-size: 18px;
+    color: #343a40;
+}
+
+
+h3 span {
+    font-weight: bold;
+}
+
+
+#total_review {
+    font-weight: bold;
+}
+
+
+#total_five_star_review,
+#total_four_star_review,
+#total_three_star_review,
+#total_two_star_review,
+#total_one_star_review {
+    font-weight: bold;
+    color: #343a40;
+}
+
+
+.progress-label-left,
+.progress-label-right {
+    font-weight: bold;
+    color: #343a40;
+}
+
+/* Search Bar  */
+
+.searchBar {
+    margin-bottom: 20px;
+}
+
+.searchBar i {
+    color: #ff7f50;
+    margin-right: 5px; 
+}
+
+.searchBar input {
+    background-color: #fff;
+    color: #333; 
+    border: none; 
+    outline: #fb774b;
+    padding: 8px 15px; 
+    font-size: 16px; 
+    font-weight: 500; 
+}
+
+
 
 
