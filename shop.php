@@ -1,9 +1,8 @@
 <?php
 
-session_start();
 include('server/connection.php');
 
-$stmt = $conn->prepare("SELECT * FROM products WHERE product_category='LGCT' OR product_category='LGNJ' OR product_category='LGF' OR product_category='LGJW'  LIMIT 24 ");
+$stmt = $conn->prepare("SELECT * FROM products WHERE product_category='LGCT' OR product_category='LGNJ' OR product_category='LGF' OR product_category='LGJW'  LIMIT 36 ");
 
 $stmt->execute();
 
@@ -38,8 +37,12 @@ $products = $stmt->get_result();//[]
 
                         <div class="filter-btns pb-5 pt-3 searchBar" >
                             <i class="fas fa-search"></i>
-                            <input type="text" name="search-item" id="search-item" placeholder="Search products" onkeyup="search()">
+                            <input type="text" name="search-item" id="search-item" placeholder="Search products" onkeyup="search()" autocomplete="off">
+                            <div class="result-box container-fluid mx-auto">
+
+                            </div>
                             <hr style="color: coral;">
+                            
                         </div>
 
 
@@ -185,5 +188,6 @@ $products = $stmt->get_result();//[]
             }
         }
     </script>
+
 
 <?php include('layouts/footer.php') ?>

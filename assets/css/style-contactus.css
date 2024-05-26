@@ -68,9 +68,6 @@ body{
     border-radius: 3px;
 }
 
-.contact-right img{
-    width: 60%;
-}
 
 @media (max-width: 800px){
     .contact-inputs{
@@ -79,5 +76,20 @@ body{
     .contact-right{
         display: none;
     }
+}
+
+.chatbot{
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+    width: 420px;
+    background: #fff0ff;
+    border-radius: 15px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
+                0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.chatbot header{
+    background: #ff7b00;
 }
 

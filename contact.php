@@ -11,7 +11,7 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -56,25 +56,6 @@
       </div>
   </nav>
 
-
-
-    <!-- Contact -->
-    <!-- <section id="contact" class="container my-5 py-5">
-        <div class="container text-center mt-5">
-            <h3>Contact Us</h3>
-            <hr class="mx-auto" style="color: coral;">
-            <p class="w-50 mx-auto">
-                Phone number: 123 456 7890
-            </p>
-            <p class="w-50 mx-auto">
-                Email address: info@gmail.com
-            </p>
-            <p class="w-50 mx-auto">
-                We work 24/7 to answer your questions
-            </p>
-        </div>
-    </section> -->
-
     <!-- Contact -->
     
     <section id="contact" class="container my-5 py-5">
@@ -92,9 +73,28 @@
                 <button class="" type="submit">Send</button>
 
             </form>
-            <div class="contact-right">
-                <img src="./assets/imgs/letter.gif" alt="">
-            </div>
+
+            <form action="">
+              <div class="chatbot">
+                <header>
+                  <h4>Chatbot</h4>
+                </header>
+                <ul class="chatbox">
+                  <li>
+                    <span class="material-symbols-outlined">smart_toy</span>
+                    <p>Hi there <br>How can I help you today? </p>
+                  </li>
+                  <li class="chat outgoing">
+                  <p>Hi there <br>How can I help you today? </p>
+                  </li>
+                </ul>
+                <div class="chat-input">
+                  <textarea name="" id="" placeholder="Enter a message ... "></textarea>
+                  <span id="send-btn" class="material-symbols-outlined"> Send </span>
+                </div>
+
+              </div>
+            </form>
         </div>
         
     </section>
@@ -107,7 +107,6 @@
 
 
     <!--Footer-->
-
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">

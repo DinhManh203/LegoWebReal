@@ -86,7 +86,7 @@ if(isset($_POST['add_to_cart'])){
 
 }else{
   // Nếu không có dữ liệu gửi từ form POST, chuyển hướng về trang chính
-  // header('location: index.php');
+  header('location: index.php');
 }
 
 

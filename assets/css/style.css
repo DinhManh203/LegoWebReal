@@ -1301,6 +1301,20 @@ h3 span {
     font-weight: 500; 
 }
 
+.result-box ul{
+    padding: 15px 10px;
+}
+
+.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 13px 10px ;
+    cursor: pointer;
+}
+
+.result-box ul li:hover{
+    background-color: #fff6ee;  
+}
 
 
 
